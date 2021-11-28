@@ -1,0 +1,25 @@
+{
+  "name": "typescript",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "poo:mixins": "ts-node-dev --respawn --transpile-only --ignore-watch node_modules poo/mixins/index.ts",
+    "poo:generics": "ts-node-dev --respawn --transpile-only --ignore-watch node_modules poo/generics/index.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/danieldkm/typescript.git"
+  },
+  "author": "Daniel K. Morita",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/danieldkm/typescript/issues"
+  },
+  "homepage": "https://github.com/danieldkm/typescript#readme",
+  "devDependencies": {
+    "ts-node-dev": "^1.1.8",
+    "typescript": "^4.5.2"
+  }
+}
